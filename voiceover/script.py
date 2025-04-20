@@ -8,7 +8,7 @@ import json
 import sys
 
 # ElevenLabs API key (replace with your actual key)
-API_KEY = 'sk_caf73d76ee0f70c96f98a5b765cbda7364326460d2ee3110'
+API_KEY = 'ключ'
 
 # Global settings (only output format remains)
 global_settings = {

@@ -1,8 +1,0 @@
-{
-    "Вы": {
-        "voice_id": "3EuKHIEZbSzrHGNmdYsx",
-        "stability": 0.5,
-        "similarity_boost": 0,
-        "model_id": "eleven_turbo_v2_5"
-
-}

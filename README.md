@@ -21,7 +21,7 @@
 ## 🛠️ **Технический стек:**
 - 🐍 Python, 💠 C#, ☕ Java (базово), n8n, R 
 - 🌐 HTML + CSS (базовые одностраничные сайты)  
-- 🧠 ML/AI: scikit-learn, pandas, NumPy, matplotlib  
+- 🧠 ML/AI: scikit-learn, pandas, NumPy, matplotlib, pytorch
 - 🗄️ Базы данных: PostgreSQL, MongoDB  
 - 📦 Git, GitHub, Jupyter, VS Code, Docker
 

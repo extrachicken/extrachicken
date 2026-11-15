@@ -1,90 +1,72 @@
-<div align="center">
-  <p><samp>extrachicken@github:~$ whoami</samp></p>
-  <h1>Андрей Соболев</h1>
-  <p><strong>Разработка ПО · Машинное обучение · ИИ-автоматизация</strong></p>
-  <p>
-    <img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square" alt="C#">
-    <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square" alt="Python">
-    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square" alt="TypeScript">
-    <img src="https://img.shields.io/badge/SQL-4169E1?style=flat-square" alt="SQL">
-  </p>
-  <p>
-    <a href="mailto:sobolevonelov@yandex.ru">Email</a>
-    &nbsp; / &nbsp;
-    <a href="https://t.me/cringe_detector">Telegram</a>
-    &nbsp; / &nbsp;
-    <a href="https://github.com/extrachicken?tab=repositories">Репозитории</a>
-  </p>
-</div>
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/profile-header-mobile.svg">
+  <img src="assets/profile-header.svg" width="100%" alt="Андрей Соболев — C#/.NET, Python, Machine Learning. Стажировка в Северстали до 1 декабря 2026. Автоматизация озвучки: с недели до одного дня.">
+</picture>
 
----
+<p align="center">
+  <a href="mailto:sobolevonelov@yandex.ru"><img src="https://img.shields.io/badge/Email-Обсудим_работу-A78BFA?style=for-the-badge&amp;logo=gmail&amp;logoColor=white&amp;labelColor=161B22" alt="Обсудить работу по email"></a>
+  <a href="https://t.me/cringe_detector"><img src="https://img.shields.io/badge/Telegram-Написать-6EE7B7?style=for-the-badge&amp;logo=telegram&amp;logoColor=white&amp;labelColor=161B22" alt="Написать в Telegram"></a>
+</p>
 
-Создаю прикладное ПО, работаю с данными и автоматизирую процессы с помощью ИИ.
-Мне интересен весь путь от задачи и алгоритма до удобного приложения.
-Изучаю прикладную математику и информатику в ЧГУ, профиль —
-«Искусственный интеллект».
+<p align="center">
+  <img src="https://img.shields.io/badge/.NET-161B22?style=flat-square&amp;logo=dotnet&amp;logoColor=A78BFA" alt=".NET">
+  <img src="https://img.shields.io/badge/Python-161B22?style=flat-square&amp;logo=python&amp;logoColor=FBBF7A" alt="Python">
+  <img src="https://img.shields.io/badge/TypeScript-161B22?style=flat-square&amp;logo=typescript&amp;logoColor=60A5FA" alt="TypeScript">
+  <img src="https://img.shields.io/badge/React-161B22?style=flat-square&amp;logo=react&amp;logoColor=6EE7B7" alt="React">
+  <img src="https://img.shields.io/badge/PyTorch-161B22?style=flat-square&amp;logo=pytorch&amp;logoColor=FBBF7A" alt="PyTorch">
+  <img src="https://img.shields.io/badge/PostgreSQL-161B22?style=flat-square&amp;logo=postgresql&amp;logoColor=60A5FA" alt="PostgreSQL">
+</p>
 
-## Опыт
+<h3>Избранные проекты <sub> / selected work</sub></h3>
 
-**Северсталь · C#/.NET-разработчик, стажировка**  
-<sub>Июль 2026 — настоящее время · окончание стажировки — 1 декабря 2026</sub>
+<p align="center">
+  <a href="https://lolimagic.com/"><img src="assets/project-magic.svg" width="400" alt="MagicRPG Guides — развиваю сайт игрового сообщества: гайды, пользовательские интерфейсы и гонки развития. Открыть сайт."></a>
+  <a href="https://github.com/extrachicken/DND-Workbench"><img src="assets/project-dnd.svg" width="400" alt="DND Workbench — развивающийся офлайн-помощник: персонажи, кампании, журнал, локальные данные и резервные копии. TypeScript, React, PWA."></a>
+</p>
+<p align="center">
+  <a href="https://github.com/extrachicken/auto-voiceovers"><img src="assets/project-voice.svg" width="400" alt="Auto Voiceovers — автоматизация озвучки сценариев с отдельными голосами персонажей. Python, ElevenLabs API."></a>
+  <a href="https://github.com/extrachicken/ML-labs"><img src="assets/project-ml.svg" width="400" alt="ML Labs — учебные работы: кластеризация, сравнение методов и визуализация PCA. Python, scikit-learn."></a>
+</p>
 
-Работаю над приложением для автоматизации взвешивания железнодорожных
-составов: обработкой показаний оборудования, алгоритмами распознавания
-типов вагонов и интерфейсом оператора. Занимаюсь бизнес-логикой,
-моделями данных, MVVM и проверкой изменений.
+<p align="center">
+  <a href="https://github.com/extrachicken/auto-HR">AI для HR</a> &nbsp; · &nbsp;
+  <a href="https://github.com/extrachicken/project-to-ai-context">Project → AI context</a> &nbsp; · &nbsp;
+  <a href="https://github.com/extrachicken?tab=repositories">Все репозитории ↗</a>
+</p>
 
-**Самолов групп · Саунд-дизайнер, автоматизация озвучки**  
-<sub>Март 2025 — май 2026</sub>
+<details>
+<summary><strong>Опыт работы</strong> — Северсталь / Самолов групп</summary>
 
-Озвучивал персонажей обучающих игр с помощью TTS, настраивал голоса
-и обрабатывал звук. Автоматизировал озвучку через ElevenLabs API —
-время подготовки сократилось с недели до одного дня.
-[Пример инструмента →](https://github.com/extrachicken/auto-voiceovers)
+<p><strong>Северсталь · C#/.NET-разработчик, стажировка</strong><br>
+<sub>Июль 2026 — настоящее время; окончание — 1 декабря 2026.</sub><br>
+ПО для взвешивания железнодорожных составов: обработка показаний оборудования,
+алгоритмы распознавания типов вагонов, модели данных и интерфейс оператора.
+C#/.NET, Avalonia, MVVM, проверка изменений.</p>
 
-## Избранные проекты
+<p><strong>Самолов групп · Саунд-дизайнер, автоматизация озвучки</strong><br>
+<sub>Март 2025 — май 2026.</sub><br>
+TTS-озвучка персонажей обучающих игр, настройка голосов и обработка звука.
+Автоматизация через ElevenLabs API сократила подготовку озвучки
+с недели до одного дня.</p>
+</details>
 
-### [MagicRPG Guides ↗](https://lolimagic.com/)
+<details>
+<summary><strong>Стек и немного обо мне</strong></summary>
 
-Развиваю и сопровождаю сайт игрового сообщества: базу гайдов, интерфейсы
-для пользователей и инструменты организации гонок развития.
+<ul>
+  <li><strong>Приложения:</strong> C#, .NET, Avalonia, ASP.NET Core, TypeScript, React.</li>
+  <li><strong>Данные и ML:</strong> Python, pandas, NumPy, scikit-learn, PyTorch, Jupyter.</li>
+  <li><strong>Хранение:</strong> SQL, PostgreSQL, EF Core, IndexedDB.</li>
+  <li><strong>Автоматизация:</strong> REST API, LLM, TTS, n8n, PowerShell.</li>
+  <li><strong>Разработка:</strong> Git, Docker, GitHub Actions, xUnit, Vitest.</li>
+</ul>
+<p>ЧГУ · прикладная математика и информатика, «Искусственный интеллект».<br>
+Английский — C1. Вне кода — музыка, игры и настольные RPG.</p>
+</details>
 
-### [DND Workbench](https://github.com/extrachicken/DND-Workbench)
+<details>
+<summary><strong>GitHub в цифрах</strong></summary>
 
-<sub>TypeScript · React · IndexedDB · PWA</sub>
-
-Развивающийся офлайн-помощник для D&D: персонажи, кампании, журнал сессий
-и резервные копии. Локальное хранение данных и миграции между версиями.
-
-### [Auto HR](https://github.com/extrachicken/auto-HR)
-
-<sub>Python · OpenAI API · Typeform · Google Sheets</sub>
-
-Генерация вопросов и форм по описанию вакансии, проверка обязательных
-требований и обмен данными с Google Sheets.
-
-### [ML Labs](https://github.com/extrachicken/ML-labs)
-
-<sub>Python · scikit-learn · pandas · Jupyter</sub>
-
-Учебные работы по машинному обучению и анализу данных: кластеризация,
-сравнение методов и визуализация с помощью PCA.
-
-Ещё: [Диспетчеризация ПЭР](https://github.com/extrachicken/Practice-severstal) —
-веб-приложение учёта электроэнергии на ASP.NET Core;
-[Project → AI context](https://github.com/extrachicken/project-to-ai-context) —
-подготовка структуры и текстов проекта для работы с ИИ.
-
-## Инструменты
-
-| Направление | Стек |
-| :--- | :--- |
-| Приложения | C# · .NET · Avalonia · ASP.NET Core · TypeScript · React |
-| Данные и ML | Python · pandas · NumPy · scikit-learn · PyTorch · Jupyter |
-| Хранение | SQL · PostgreSQL · Entity Framework Core · IndexedDB |
-| Автоматизация | REST API · LLM · TTS · n8n · PowerShell |
-| Разработка | Git · Docker · GitHub Actions · xUnit · Vitest |
-
----
-
-<sub>Английский — C1 · Вне кода — музыка, игры и настольные RPG.</sub>
+<p><img src="https://github-stats-extended.vercel.app/api?username=extrachicken&amp;show_icons=true&amp;hide_rank=true&amp;hide=stars,issues&amp;theme=transparent&amp;title_color=A78BFA&amp;icon_color=6EE7B7&amp;text_color=8B949E&amp;border_color=30363D&amp;custom_title=GitHub%20activity&amp;disable_animations=true" alt="Статистика публичных репозиториев GitHub"></p>
+<sub>Статистика публичных репозиториев; рабочие и закрытые проекты сюда не входят.</sub>
+</details>

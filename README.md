@@ -19,12 +19,34 @@
 
 ## Избранные проекты
 
-| Проект | Что внутри |
-| :--- | :--- |
-| **[DND Workbench](https://github.com/extrachicken/DND-Workbench)**<br><sub>TypeScript · React · IndexedDB</sub> | Развивающийся офлайн-помощник для D&D: персонажи, кампании, журнал сессий и резервные копии. Локальное хранение данных, миграции и PWA. |
-| **[Диспетчеризация ПЭР](https://github.com/extrachicken/Practice-severstal)**<br><sub>C# · ASP.NET Core · PostgreSQL</sub> | Проект практики: учёт потребления и выработки электроэнергии, расчёт отклонений, роли пользователей и журнал изменений. Обновление данных через SignalR. |
-| **[Auto HR](https://github.com/extrachicken/auto-HR)**<br><sub>Python · OpenAI API · Typeform</sub> | Генерация вопросов и форм по описанию вакансии, проверка обязательных требований и обмен данными с Google Sheets. |
-| **[Auto Voiceovers](https://github.com/extrachicken/auto-voiceovers)**<br><sub>Python · ElevenLabs API</sub> | Автоматическая озвучка сценариев: разбор реплик из DOCX и TXT, отдельные голоса персонажей и сохранение аудио по фразам. |
+### [DND Workbench](https://github.com/extrachicken/DND-Workbench)
+
+<sub>TypeScript · React · IndexedDB · PWA</sub>
+
+Развивающийся офлайн-помощник для D&D: персонажи, кампании, журнал сессий
+и резервные копии. Локальное хранение данных и миграции между версиями.
+
+### [Диспетчеризация ПЭР](https://github.com/extrachicken/Practice-severstal)
+
+<sub>C# · ASP.NET Core · PostgreSQL · SignalR</sub>
+
+Проект практики: учёт потребления и выработки электроэнергии, расчёт
+отклонений, роли пользователей и журнал изменений. Обновление данных
+в реальном времени.
+
+### [Auto HR](https://github.com/extrachicken/auto-HR)
+
+<sub>Python · OpenAI API · Typeform · Google Sheets</sub>
+
+Генерация вопросов и форм по описанию вакансии, проверка обязательных
+требований и обмен данными с Google Sheets.
+
+### [Auto Voiceovers](https://github.com/extrachicken/auto-voiceovers)
+
+<sub>Python · ElevenLabs API</sub>
+
+Автоматическая озвучка сценариев: разбор реплик из DOCX и TXT,
+отдельные голоса персонажей и сохранение аудио по фразам.
 
 Ещё: [Project → AI context](https://github.com/extrachicken/project-to-ai-context) —
 подготовка структуры и текстов проекта для работы с ИИ;

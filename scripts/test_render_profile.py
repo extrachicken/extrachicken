@@ -17,6 +17,7 @@ class RenderTests(unittest.TestCase):
                     visible=' '.join(''.join(el.itertext()) for el in svg.findall(f'{{{NS}}}text') if el.find(f'{{{NS}}}tspan') is not None)
                     self.assertEqual(visible,expected)
                     self.assertGreater(len(svg.findall(f'.//{{{NS}}}rect')),300)
+                    self.assertEqual(svg.findall(f'.//{{{NS}}}a'),[])
                 self.assertIn('?v=',(root/'README.md').read_text())
                 before={p:p.read_bytes() for p in [root/'README.md',root/'assets/profile-motion.svg',root/'assets/profile-motion-mobile.svg']}
                 render(root)

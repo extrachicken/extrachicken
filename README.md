@@ -6,9 +6,22 @@ GitHub Actions автоматически обновит видимый текс
 Параметры ?v= в ссылках генерируются автоматически; менять их вручную не нужно.
 Локальная сборка: python3 scripts/render_profile.py
 -->
-<a href="https://extrachicken.github.io/" title="Open my résumé website">
+<img src="assets/profile-header.svg?v=c2f49f2eed4a" width="100%" alt="Andrey Sobolev">
+
 <picture>
-  <source media="(max-width: 600px)" srcset="assets/profile-motion-mobile.svg?v=e0487aefeea8">
-  <img src="assets/profile-motion.svg?v=e0487aefeea8" width="100%" alt="I'm Andrey. I do machine learning and C#/.NET development. Interning at Severstal. Also good at comedy.">
+  <source media="(max-width: 600px)" srcset="assets/profile-empty.svg?v=c2f49f2eed4a">
+  <img align="right" src="assets/profile-intro.svg?v=c2f49f2eed4a" width="43%" alt="I'm Andrey. I do machine learning and C#/.NET development. Interning at Severstal. Also good at comedy.">
 </picture>
-</a>
+
+<a href="mailto:sobolevonelov@yandex.ru"><img src="assets/profile-link-email.svg?v=c2f49f2eed4a" width="140" height="24" alt="Email"></a>
+
+<a href="https://t.me/cringe_detector"><img src="assets/profile-link-telegram.svg?v=c2f49f2eed4a" width="140" height="24" alt="Telegram"></a>
+
+<a href="https://extrachicken.github.io/"><img src="assets/profile-link-resume.svg?v=c2f49f2eed4a" width="140" height="24" alt="Résumé"></a>
+
+<br clear="all">
+
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/profile-body-mobile.svg?v=c2f49f2eed4a">
+  <img src="assets/profile-activity.svg?v=c2f49f2eed4a" width="100%" alt="C#, Python, TypeScript. Public GitHub activity.">
+</picture>

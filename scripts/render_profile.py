@@ -63,7 +63,7 @@ def render(root):
     mobile=ET.fromstring((root/'assets/profile-motion-mobile.svg').read_text())
     crop('profile-motion.svg','profile-header.svg',0,0,960,58)
     extra=int(desktop.get('height'))-380
-    crop('profile-motion.svg','profile-intro.svg',550,70,410,140+extra)
+    crop('profile-motion.svg','profile-intro.svg',550,43,410,167+extra)
     crop('profile-motion.svg','profile-activity.svg',0,190+extra,960,190)
     crop('profile-motion-mobile.svg','profile-body-mobile.svg',0,90,420,int(mobile.get('height'))-90)
     (root/'assets/profile-empty.svg').write_text('<svg xmlns="http://www.w3.org/2000/svg" width="960" height="1" viewBox="0 0 960 1"/>\n')

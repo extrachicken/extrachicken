@@ -1,0 +1,30 @@
+name: Update profile card
+on:
+  push:
+    branches: [main]
+    paths: [README.md, scripts/**, .github/workflows/render-profile.yml]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: profile-card
+  cancel-in-progress: false
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+      - name: Verify generator and update both cards
+        run: |
+          python3 -m unittest discover -s scripts -p 'test_*.py'
+          python3 scripts/render_profile.py
+      - name: Publish generated images
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md assets/profile-motion.svg assets/profile-motion-mobile.svg
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Update profile card from README text'
+          git push origin HEAD:main
